@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nova Digital | Digital Products Store</title>
+
+  <!-- BASIC STYLING -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #0d6efd;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #0d6efd;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+
+    .product {
+      background: white;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    /* Makes it look good on bigger screens */
+    @media (min-width: 600px) {
+      .products {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Nova Digital</h1>
+  <p>Smart digital products for modern living</p>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HOME SECTION -->
+<section id="home">
+  <h2>Welcome to Nova Digital</h2>
+  <p>
+    Nova Digital is a digital products store offering simple, effective guides
+    to improve your skin, confidence, and lifestyle. All products are
+    phone-friendly and instantly downloadable.
+  </p>
+  <a href="#shop" class="btn">Shop Now</a>
+</section>
+
+<!-- SHOP SECTION -->
+<section id="shop">
+  <h2>Our Digital Products</h2>
+
+  <div class="products">
+
+    <!-- PRODUCT 1 -->
+    <div class="product">
+      <h3>Bump Free Skin</h3>
+      <p>Clear face bumps & glow skin guide</p>
+      <p><strong>Price:</strong> ₦4,000 / $7</p>
+
+      <!-- PAYMENT LINK -->
+      <a class="btn" href="https://paystack.com/pay/YOUR_PAYMENT_LINK" target="_blank">
+        Buy Now
+      </a>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="product">
+      <h3>7-Day Glow-Up Routine</h3>
+      <p>Simple daily routine for skin & confidence</p>
+      <p><strong>Price:</strong> ₦3,500 / $6</p>
+
+      <a class="btn" href="https://paystack.com/pay/YOUR_PAYMENT_LINK" target="_blank">
+        Buy Now
+      </a>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="product">
+      <h3>Skincare Mistakes Guide</h3>
+      <p>Common mistakes ruining your face</p>
+      <p><strong>Price:</strong> ₦2,500 / $5</p>
+
+      <a class="btn" href="https://paystack.com/pay/YOUR_PAYMENT_LINK" target="_blank">
+        Buy Now
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+  <h2>About Nova Digital</h2>
+  <p>
+    Nova Digital creates affordable and practical digital products that solve
+    real-life problems. Our goal is to make useful knowledge easy to access,
+    understand, and apply from your phone.
+  </p>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    WhatsApp:
+    <a href="https://wa.me/YOURNUMBER" target="_blank">
+      +234XXXXXXXXXX
+    </a>
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Nova Digital. All rights reserved.
+</footer>
+
+</body>
+</html>
